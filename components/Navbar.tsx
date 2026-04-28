@@ -50,7 +50,7 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="/resume.pdf"
+              href="/JackelynFloresResume.pdf"
               download
               className="text-sm px-4 py-1.5 rounded-lg border border-[#00d4ff] text-[#00d4ff] hover:bg-[#00d4ff]/10 transition-colors"
             >

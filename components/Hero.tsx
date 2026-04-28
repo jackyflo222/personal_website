@@ -34,7 +34,7 @@ export default function Hero() {
             Get In Touch
           </a>
           <a
-            href="/resume.pdf"
+            href="/JackelynFloresResume.pdf"
             download
             className="px-6 py-3 rounded-lg font-semibold text-sm border border-[#1e3a5f] text-[#94a3b8] hover:border-[#00d4ff] hover:text-[#00d4ff] transition-colors"
           >
