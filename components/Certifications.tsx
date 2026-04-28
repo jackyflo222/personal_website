@@ -1,35 +1,23 @@
 const certifications = [
   {
-    name: "ISTQB Certified Tester — Foundation Level",
-    issuer: "ISTQB",
-    year: "2023",
+    name: "SQL Essential Training",
+    issuer: "LinkedIn",
+    year: "May 2023",
     icon: "🏅",
   },
   {
-    name: "ISTQB Certified Tester — Advanced Level Test Automation Engineer",
-    issuer: "ISTQB",
-    year: "2024",
-    icon: "🏅",
-  },
-  {
-    name: "AI for Everyone",
-    issuer: "Coursera / DeepLearning.AI",
-    year: "2024",
-    icon: "🤖",
-  },
-  {
-    name: "TypeScript Developer Certification",
-    issuer: "Udemy",
-    year: "2023",
-    icon: "💻",
+    name: "Programming Foundations: APIs and Web Services",
+    issuer: "LinkedIn",
+    year: "Jan 2022",
+    icon: "🔌",
   },
 ];
 
 const education = [
   {
-    degree: "B.S. Computer Science",
-    school: "Your University",
-    year: "20XX",
+    degree: "Bachelor's degree, Urban Studies/Affairs",
+    school: "UC Irvine",
+    year: "2014 – 2018",
     icon: "🎓",
   },
 ];
@@ -71,7 +59,7 @@ export default function Certifications() {
                   <div>
                     <p className="font-semibold text-[#e2e8f0] text-sm">{edu.degree}</p>
                     <p className="text-[#94a3b8] text-xs mt-1">
-                      {edu.school} · {edu.year}
+                      {edu.school}
                     </p>
                   </div>
                 </div>

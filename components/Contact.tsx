@@ -6,13 +6,13 @@ export default function Contact() {
         <div className="section-divider mx-auto" />
 
         <p className="text-[#94a3b8] mb-10 leading-relaxed">
-          I&apos;m open to QA Automation and AI QA roles, freelance projects, and
+          I'm open to QA Automation and AI QA roles, freelance projects, and
           collaborations. Whether you have a question or just want to say hi, my inbox is
           always open.
         </p>
 
         <a
-          href="mailto:your.email@example.com"
+          href="mailto:jackelynflores2@gmail.com"
           className="inline-block px-8 py-4 rounded-lg font-semibold bg-[#00d4ff] text-[#0a0f1e] hover:bg-[#00b8d9] transition-colors mb-12"
         >
           Say Hello
@@ -20,7 +20,7 @@ export default function Contact() {
 
         <div className="flex justify-center gap-8">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/jackyflo222"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#94a3b8] hover:text-[#00d4ff] transition-colors flex items-center gap-2 text-sm"
@@ -31,7 +31,7 @@ export default function Contact() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/jackyflores/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#94a3b8] hover:text-[#00d4ff] transition-colors flex items-center gap-2 text-sm"
@@ -40,17 +40,6 @@ export default function Contact() {
               <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
             </svg>
             LinkedIn
-          </a>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#94a3b8] hover:text-[#00d4ff] transition-colors flex items-center gap-2 text-sm"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            Resume
           </a>
         </div>
       </div>

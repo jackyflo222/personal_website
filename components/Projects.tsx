@@ -1,26 +1,10 @@
 const projects = [
   {
-    title: "E2E Automation Framework",
+    title: "Selenium Web Automation Suite",
     description:
-      "Built a scalable end-to-end test suite using WebdriverIO and TypeScript with Page Object Model pattern, reducing regression testing time by 60%.",
-    tags: ["WebdriverIO", "TypeScript", "GitHub Actions", "Page Object Model"],
-    github: "https://github.com/your-username/e2e-framework",
-    demo: "",
-  },
-  {
-    title: "AI-Powered Test Generator",
-    description:
-      "Integrated an LLM to auto-generate test cases from user stories, cutting test writing time by 40% and improving coverage of edge cases.",
-    tags: ["Python", "OpenAI API", "WebdriverIO", "TypeScript"],
-    github: "https://github.com/your-username/ai-test-gen",
-    demo: "",
-  },
-  {
-    title: "Visual Regression Suite",
-    description:
-      "Implemented visual AI testing with Applitools Eyes across a multi-brand design system, catching pixel-level UI regressions across 5 browsers.",
-    tags: ["Applitools", "WebdriverIO", "TypeScript", "CI/CD"],
-    github: "https://github.com/your-username/visual-regression",
+      "End-to-end UI test suite built with Selenium 4, pytest, and the Page Object Model pattern. Covers 12 test scenarios including alerts, iframes, dynamic tables, hover actions, and window/tab handling — with a BasePage abstraction that eliminates time.sleep by using explicit waits throughout.",
+    tags: ["Python", "Selenium 4", "pytest", "Page Object Model"],
+    github: "https://github.com/jackyflo222/web_automation",
     demo: "",
   },
 ];

@@ -2,38 +2,38 @@ const skillGroups = [
   {
     category: "Test Automation",
     icon: "⚙️",
-    skills: ["WebdriverIO", "Playwright", "Selenium", "Cypress", "Appium"],
+    skills: ["Selenium WebDriver", "WebDriverIO", "Appium", "Eggplant"],
   },
   {
     category: "Languages",
     icon: "💻",
-    skills: ["TypeScript", "JavaScript", "Python", "Java"],
+    skills: ["Python", "TypeScript", "JavaScript", "SQL", "HTML / CSS"],
   },
   {
-    category: "AI & ML Testing",
+    category: "AI-Assisted Testing",
     icon: "🤖",
     skills: [
-      "LLM Test Generation",
-      "Self-Healing Locators",
-      "Visual AI Testing",
-      "Applitools",
-      "Testim",
+      "AI Test Generation",
+      "Prompt Engineering",
+      "Edge Case Discovery",
+      "AI Code Generation",
+      "Automated Debugging",
     ],
   },
   {
     category: "CI/CD & DevOps",
     icon: "🔁",
-    skills: ["GitHub Actions", "Jenkins", "Docker", "CircleCI", "Azure DevOps"],
+    skills: ["GitLab CI/CD", "Jenkins", "Git", "Bitbucket", "Linux"],
   },
   {
-    category: "API Testing",
+    category: "API & Debugging",
     icon: "🔌",
-    skills: ["Postman", "REST Assured", "SuperTest", "GraphQL Testing"],
+    skills: ["Postman", "Chrome DevTools", "Charles Proxy", "API Inspection"],
   },
   {
     category: "Tools & Platforms",
     icon: "🛠",
-    skills: ["Jira", "TestRail", "BrowserStack", "Sauce Labs", "Git"],
+    skills: ["Jira", "Confluence", "TestRail", "Android Studio", "PyCharm"],
   },
 ];
 

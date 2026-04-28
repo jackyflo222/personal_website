@@ -12,12 +12,11 @@ export default function Hero() {
           Jackelyn Flores
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-          <span className="gradient-text">QA Automation Engineer</span>
-          <span className="text-[#94a3b8]"> → AI QA</span>
+          <span className="gradient-text">AI QA</span>
         </h2>
         <p className="text-[#94a3b8] text-lg leading-relaxed mb-10 max-w-2xl">
           I build robust test automation frameworks that keep software reliable at scale.
-          Currently moving into AI-augmented quality assurance — using large language models
+          Currently moving into AI-augmented quality assurance using large language models
           and intelligent tooling to make testing smarter, faster, and more resilient.
         </p>
 
@@ -34,12 +33,19 @@ export default function Hero() {
           >
             Get In Touch
           </a>
+          <a
+            href="/resume.pdf"
+            download
+            className="px-6 py-3 rounded-lg font-semibold text-sm border border-[#1e3a5f] text-[#94a3b8] hover:border-[#00d4ff] hover:text-[#00d4ff] transition-colors"
+          >
+            Download Resume
+          </a>
         </div>
 
         {/* Social links */}
         <div className="flex gap-5 mt-10">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/jackyflo222"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#94a3b8] hover:text-[#00d4ff] transition-colors"
@@ -50,7 +56,7 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/jackyflores/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#94a3b8] hover:text-[#00d4ff] transition-colors"

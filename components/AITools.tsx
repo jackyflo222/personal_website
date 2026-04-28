@@ -1,38 +1,10 @@
 const tools = [
   {
-    name: "Applitools Eyes",
-    category: "Visual AI Testing",
-    description:
-      "AI-powered visual validation that detects meaningful UI changes while ignoring irrelevant pixel differences.",
-    icon: "👁",
-  },
-  {
-    name: "Testim",
-    category: "Self-Healing Tests",
-    description:
-      "Uses machine learning to automatically adapt tests when UI changes, reducing maintenance overhead.",
-    icon: "🔧",
-  },
-  {
-    name: "ChatGPT / GPT-4",
+    name: "ChatGPT",
     category: "Test Generation",
     description:
-      "Leverage LLMs to generate test cases, edge case scenarios, and test data from requirements or user stories.",
+      "Generate test cases, edge case scenarios, and test data from requirements or user stories using OpenAI's LLM.",
     icon: "🤖",
-  },
-  {
-    name: "Mabl",
-    category: "Intelligent Automation",
-    description:
-      "Cloud-based test automation platform with built-in ML for auto-healing and intelligent test insights.",
-    icon: "🧠",
-  },
-  {
-    name: "Diffblue Cover",
-    category: "AI Unit Test Writing",
-    description:
-      "Automatically writes Java unit tests using AI, dramatically increasing code coverage without manual effort.",
-    icon: "⚡",
   },
   {
     name: "GitHub Copilot",
@@ -40,6 +12,20 @@ const tools = [
     description:
       "Accelerates test script development with AI code suggestions tailored to the testing context.",
     icon: "🚀",
+  },
+  {
+    name: "Claude",
+    category: "AI Assistant",
+    description:
+      "Used for debugging automation scripts, writing documentation, and exploring test strategies with conversational AI.",
+    icon: "💬",
+  },
+  {
+    name: "Claude API",
+    category: "AI Integration",
+    description:
+      "Integrate Claude directly into test pipelines for intelligent test generation, analysis, and reporting.",
+    icon: "⚡",
   },
 ];
 

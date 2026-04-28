@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 const links = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "AI Tools", href: "#ai-tools" },
   { label: "Case Studies", href: "#case-studies" },
@@ -47,6 +48,15 @@ export default function Navbar() {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href="/resume.pdf"
+              download
+              className="text-sm px-4 py-1.5 rounded-lg border border-[#00d4ff] text-[#00d4ff] hover:bg-[#00d4ff]/10 transition-colors"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         {/* Mobile menu button */}

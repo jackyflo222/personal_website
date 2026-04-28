@@ -1,28 +1,44 @@
 const caseStudies = [
   {
-    title: "Reducing Flaky Tests by 80% with Self-Healing Locators",
+    title: "Cutting a 2-Week Regression Cycle Down to 2 Hours",
     problem:
-      "A legacy e-commerce platform had over 300 flaky end-to-end tests causing CI pipelines to fail weekly, eroding team trust in automation.",
+      "At SpotOn, manual regression testing consumed two full weeks before every release, creating a bottleneck that slowed deployment velocity and stretched the QA team thin.",
     approach:
-      "Introduced self-healing locator strategies in WebdriverIO combined with Testim's ML engine to automatically adapt selectors when the DOM changed. Also added retry logic with intelligent wait strategies.",
-    outcome: "Flaky test rate dropped from 35% to under 7%. CI pipeline reliability improved significantly, and developer confidence in the test suite was restored.",
-    tags: ["WebdriverIO", "Testim", "TypeScript", "CI/CD"],
+      "Automated 500+ test cases using Python and Selenium, collaborating directly with development teams to improve testability and reduce defect leakage at the source. Led weekly company-wide automation meetings to align teams on standards and drive consistent adoption.",
+    outcome:
+      "Regression time dropped from 2 weeks to 2 hours, freeing the team to focus on exploratory and edge-case testing. Junior engineers were mentored into automation, and detailed onboarding guides ensured knowledge didn't stay siloed.",
+    tags: ["Python", "Selenium", "Bitbucket", "QA Leadership"],
     metrics: [
-      { label: "Flaky Rate", before: "35%", after: "7%" },
-      { label: "Pipeline Failures", before: "Weekly", after: "Rare" },
+      { label: "Regression Time", before: "2 weeks", after: "2 hours" },
+      { label: "Automated Cases", before: "0", after: "500+" },
     ],
   },
   {
-    title: "AI-Generated Test Cases for a Payment Microservice",
+    title: "Halving a 2-Week Regression Cycle with a Lean Automation Team",
     problem:
-      "A newly built payment microservice had minimal test coverage. Writing comprehensive tests manually would take weeks across hundreds of API endpoints.",
+      "At Shift4, regression coverage depended heavily on manual effort, a 2-week cycle run by a single manual tester. With limited headcount and no clear automation ownership, releases were slow and the team had little runway for anything beyond keeping up.",
     approach:
-      "Used GPT-4 to analyse the OpenAPI spec and generate test scenarios covering happy paths, edge cases, and negative tests. Tests were reviewed, refined, and integrated into the CI pipeline.",
-    outcome: "Achieved 85% API test coverage in 3 days instead of the estimated 3 weeks. Caught 12 edge-case bugs before the service went live.",
-    tags: ["GPT-4", "API Testing", "OpenAPI", "TypeScript"],
+      "Led a team of two automation engineers, taking ownership of the full automation strategy end to end creating all tickets and epics, setting priorities, and driving execution. Focused automation efforts on the highest-volume, most time-consuming regression areas to maximise impact with a small team.",
+    outcome:
+      "Regression time was cut by 50%, from 2 weeks down to 1, with only one manual tester remaining in the loop. The team delivered this with just three engineers total, establishing a scalable automation foundation for future releases.",
+    tags: ["QA Leadership", "Automation Strategy", "Agile", "Eggplant Functional", "TypeScript"],
     metrics: [
-      { label: "Coverage", before: "12%", after: "85%" },
-      { label: "Time to Coverage", before: "3 weeks", after: "3 days" },
+      { label: "Regression Time", before: "2 weeks", after: "1 week" },
+      { label: "Reduction", before: "—", after: "50%" },
+    ],
+  },
+  {
+    title: "Setting Up a Hardware-Backed Automation Lab Across Two Release Teams",
+    problem:
+      "End-to-end automation required real hardware devices, but there was no centralised lab or consistent process. Two separate release teams had diverging testing strategies, causing gaps in coverage and unstable automation runs.",
+    approach:
+      "Built and maintained web and API automation using Eggplant Functional and TypeScript. Took ownership of the automation lab in the Las Vegas office managing remote hardware, tooling, and device inventory. Optimised data setups, environment configurations, and test stability to reduce noise in results.",
+    outcome:
+      "Established a shared automation infrastructure that served two release teams under a unified testing strategy. Manual QA engineers were mentored through the transition to automation, growing the team's overall capability.",
+    tags: ["Eggplant Functional", "TypeScript", "Hardware Automation", "Lab Ops"],
+    metrics: [
+      { label: "Release Teams Served", before: "0 unified", after: "2 teams" },
+      { label: "QA Scope", before: "Manual", after: "Automated + Lab" },
     ],
   },
 ];
