@@ -11,6 +11,18 @@ const certifications = [
     year: "Jan 2022",
     icon: "🔌",
   },
+  {
+    name: "2021 Complete Python Bootcamp From Zero to Hero in Python",
+    issuer: "Udemy",
+    year: "Jan 2021",
+    icon: "🐍",
+  },
+  {
+    name: "Selenium Python Automation Testing from Scratch + Frameworks",
+    issuer: "Udemy",
+    year: "Apr 2020",
+    icon: "🤖",
+  },
 ];
 
 const education = [
